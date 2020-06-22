@@ -5,6 +5,8 @@ jobs:
       - image: fr3akyphantom/droid-builder:latest
     environment:
       MANIFEST_BRANCH: 'android-9.0'
+      USE_SECRET_BOOTABLE: 'true'
+      SECRET_BR: 'redesign3'
       VERSION: '2.9.1'
       MAINTAINER: '@raza231198'
       VENDOR: 'asus'
