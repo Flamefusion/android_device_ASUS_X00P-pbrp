@@ -14,13 +14,13 @@ jobs:
       FLAVOR: 'eng'
       TEST_BUILD: 'true'
       CHANGELOG: |
-        - Disable Patching DM-Verity by Default
+        - Add Support To Brick Device On Installation
     working_directory: /home/builder/pitchblack
     steps:
       - run:
           name: AIO Build
           command: |
-            wget -q https://raw.githubusercontent.com/PitchBlackRecoveryProject-Devices/vendor_pb/pb/build.sh
+            wget -q https://raw.githubusercontent.com/PitchBlackRecoveryProject/vendor_pb/pb/build.sh
             source build.sh
 workflows:
   version: 2.1
