@@ -8,7 +8,7 @@ jobs:
       USE_SECRET_BOOTABLE: 'true'
       SECRET_BR: 'redesign3'
       VERSION: '2.9.1'
-      MAINTAINER: '@raza231198'
+      MAINTAINER: '@raza231198 @Flamefusion'
       VENDOR: 'asus'
       CODENAME: 'X00P'
       FLAVOR: 'eng'
@@ -20,7 +20,7 @@ jobs:
       - run:
           name: AIO Build
           command: |
-            wget -q https://raw.githubusercontent.com/PitchBlackRecoveryProject/vendor_pb/pb/build.sh
+            wget -q https://raw.githubusercontent.com/PitchBlackRecoveryProject/vendor_utils/pb/build.sh
             source build.sh
 workflows:
   version: 2.1
