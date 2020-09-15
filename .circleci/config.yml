@@ -8,7 +8,7 @@ jobs:
       GIT_NAME: 'Flamefusion'
       VERSION: '3.0'
       PBRP_MANIFEST: 'android-9.0'
-      VENDOR: 'asus'
+      VENDOR: 'ASUS'
       DEVICE: 'X00P'
    steps:
       - run:
